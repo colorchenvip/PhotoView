@@ -23,6 +23,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 
+import com.colorchen.R;
+
 import uk.co.senab.photoview.PhotoView;
 
 public class ViewPagerActivity extends AppCompatActivity {

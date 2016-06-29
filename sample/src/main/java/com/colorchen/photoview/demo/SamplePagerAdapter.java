@@ -5,7 +5,7 @@ import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.colorchen.photoview.sample.R;
+import com.colorchen.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 

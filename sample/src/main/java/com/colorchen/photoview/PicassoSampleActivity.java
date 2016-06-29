@@ -3,6 +3,7 @@ package com.colorchen.photoview.sample;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.colorchen.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 

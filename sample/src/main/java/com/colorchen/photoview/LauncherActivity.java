@@ -26,6 +26,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.colorchen.R;
 import com.colorchen.photoview.sample.demo.SynthesizeDemo;
 
 public class LauncherActivity extends AppCompatActivity {

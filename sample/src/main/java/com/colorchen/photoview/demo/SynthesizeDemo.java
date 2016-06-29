@@ -14,7 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.colorchen.photoview.sample.R;
+import com.colorchen.R;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

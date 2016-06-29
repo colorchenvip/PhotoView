@@ -21,6 +21,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.colorchen.R;
+
 import uk.co.senab.photoview.PhotoView;
 
 public class RotationSampleActivity extends AppCompatActivity {
