@@ -1,4 +1,4 @@
-package uk.co.senab.photoview.sample;
+package com.colorchen.photoview.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +21,7 @@ public class PicassoSampleActivity extends AppCompatActivity {
         final PhotoViewAttacher attacher = new PhotoViewAttacher(photoView);
 
         Picasso.with(this)
-                .load("http://pbs.twimg.com/media/Bist9mvIYAAeAyQ.jpg")
+                .load("http://img.xgo-img.com.cn/pics/383/720/450/382694.jpg")
                 .into(photoView, new Callback() {
                     @Override
                     public void onSuccess() {

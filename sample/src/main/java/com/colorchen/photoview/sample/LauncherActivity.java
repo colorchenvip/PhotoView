@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package uk.co.senab.photoview.sample;
+package com.colorchen.photoview.sample;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,9 +26,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.colorchen.photoview.sample.demo.SynthesizeDemo;
+
 public class LauncherActivity extends AppCompatActivity {
 
-    public static final String[] options = {"Simple Sample", "ViewPager Sample", "Rotation Sample", "Picasso Sample"};
+    public static final String[] options = {"Simple Sample", "ViewPager Sample", "Rotation Sample", "Picasso Sample","demo"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +69,9 @@ public class LauncherActivity extends AppCompatActivity {
                             break;
                         case 3:
                             c = PicassoSampleActivity.class;
+                            break;
+                        case 4:
+                            c = SynthesizeDemo.class;
                             break;
                     }
 

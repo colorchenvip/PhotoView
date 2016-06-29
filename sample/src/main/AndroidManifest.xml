@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="uk.co.senab.photoview.sample">
+          package="com.colorchen.photoview.sample">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -20,6 +20,7 @@
         <activity android:name=".ViewPagerActivity"/>
         <activity android:name=".RotationSampleActivity"/>
         <activity android:name=".PicassoSampleActivity"/>
+        <activity android:name=".demo.SynthesizeDemo"/>
     </application>
 
 </manifest>
